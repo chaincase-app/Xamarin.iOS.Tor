@@ -50,14 +50,6 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="OnionSeeds\TestNetOnionSeeds.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="OnionSeeds\MainOnionSeeds.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <NativeReference Include="Tor.framework">
       <Kind>Framework</Kind>
       <SmartLink>False</SmartLink>
